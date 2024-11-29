@@ -1,0 +1,14 @@
+# flow_contacts_android.yaml
+
+appId: com.testproject
+---
+- launchApp
+- tapOn:
+    id: 'taskInput'
+- inputText: 'Lab'
+- tapOn:
+    id: 'addButton'
+- tapOn:
+    id: 'completeButton-0'
+- tapOn:
+    id: 'deleteButton-0'
